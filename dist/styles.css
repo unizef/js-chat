@@ -1,0 +1,169 @@
+/*********************
+       FONTS
+*********************/
+
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+/*********************
+         RESET
+*********************/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*********************
+       VARIABLES
+*********************/
+:root {
+  --primary-color: #f0d91d;
+  --secondary-color: #333;
+  --max-width-header: 1100px;
+  --max-width-container: 600px;
+}
+
+/*********************
+        MAIN
+*********************/
+.header {
+  background: var(--primary-color);
+  max-width: var(--max-width-header);
+  padding: 2rem 0;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: var(--max-width-container);
+  margin: 0 auto;
+}
+
+i {
+  padding-right: 7px;
+  color: #333;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.chat,
+.choose {
+  font-family: "VT323", monospace;
+}
+
+/*********************
+        BUTTONS
+*********************/
+
+.btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  outline: none !important;
+  box-shadow: none !important;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+button.btn {
+  margin: 0 5px 8px 0;
+}
+
+button.btn:hover {
+  transform: scale(1.1);
+}
+
+.btn-1 {
+  background: #f0d91d;
+}
+.btn-2 {
+  background: #61dbfb;
+}
+.btn-3 {
+  background: #42b883;
+}
+.btn-4 {
+  background: #dd1b16;
+}
+.btn-5 {
+  background: #007acc;
+}
+.btn-6 {
+  background: #8ed6fb;
+}
+.btn-7 {
+  background: #cb3837;
+}
+.btn-8 {
+  background: #4db33d;
+}
+
+/*********************
+        CHATS
+*********************/
+
+.chat-window {
+  margin-bottom: 30px;
+}
+.username {
+  font-weight: bold;
+}
+
+.time {
+  font-size: 0.7em;
+  color: #999;
+}
+
+.update-mssg {
+  text-align: center;
+  margin: 20px auto;
+  font-family: "VT323", monospace;
+}
+
+/*********************
+        FORMS
+*********************/
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.item-1 {
+  flex: 1;
+  white-space: nowrap;
+  background: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  text-align: center;
+  align-self: center;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+
+.input-style {
+  padding: 8px;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #ddd;
+}
+
+.item-2 {
+  flex: 2 auto;
+}
+
+.item-3 {
+  flex: 1;
+}
+
+div input.btn {
+  width: 100%;
+}
